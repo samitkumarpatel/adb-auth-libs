@@ -24,10 +24,10 @@ steps:
     path: $(MAVEN_CACHE_FOLDER)
   displayName: Cache Maven local repo
 
-- task: MavenAuthenticate@0
-  inputs:
-    artifactsFeeds: 'samitkumarpatel'
-    mavenServiceConnections: 'samitkumarpatel-feed'
+#- task: MavenAuthenticate@0
+#  inputs:
+#    artifactsFeeds: 'samitkumarpatel'
+#    mavenServiceConnections: 'samitkumarpatel-feed'
 
 - task: Maven@3
   inputs:
